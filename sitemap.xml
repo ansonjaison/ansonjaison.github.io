@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:35975/</loc>
+    <loc>https://ansonblogs.netlify.app/</loc>
     <lastmod>2025-06-18T15:20:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:35975/posts/</loc>
+    <loc>https://ansonblogs.netlify.app/posts/</loc>
     <lastmod>2025-06-18T15:20:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:35975/categories/</loc>
+    <loc>https://ansonblogs.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:35975/tags/</loc>
+    <loc>https://ansonblogs.netlify.app/tags/</loc>
   </url>
 </urlset>
