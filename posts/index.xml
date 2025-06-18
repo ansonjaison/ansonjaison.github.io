@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Anson&#39;s Blog</title>
-    <link>https://ansonjaison.github.io/posts/</link>
+    <link>http://localhost:35975/posts/</link>
     <description>Recent content in Posts on Anson&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jun 2025 13:30:00 +0530</lastBuildDate>
-    <atom:link href="https://ansonjaison.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me 👻</title>
-      <link>https://ansonjaison.github.io/posts/about-me/</link>
-      <pubDate>Wed, 18 Jun 2025 13:30:00 +0530</pubDate>
-      <guid>https://ansonjaison.github.io/posts/about-me/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ansonjaison.github.io/uploads/about-me/random.png&#34; alt=&#34;Random Cover Image&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;a-simple-beginning&#34;&gt;A Simple Beginning&lt;/h1&gt;&#xA;&lt;p&gt;I’m not sure who will read this. Maybe someone from my family, maybe a friend, or maybe even someone I haven’t met yet.&lt;br&gt;&#xA;This is just a small space I’ve decided to create — for writing, reflecting, and sharing what I learn along the way.&lt;/p&gt;&#xA;&lt;p&gt;To be honest, I’m not very used to writing about myself. It feels a bit awkward. But since this is the first post, I thought I’d quietly introduce myself — just so there’s a starting point.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:35975/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
