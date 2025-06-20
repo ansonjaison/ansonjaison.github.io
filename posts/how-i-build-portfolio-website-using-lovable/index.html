@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8" />
+	<meta name="google-site-verification" content="tVu9rZA3suelxNJ__mosCHU-VXSMM3u1VqMh0S4p8WU" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>How I Built My Portfolio Website Using Lovable - Anson Jaison | Blog</title><link rel="canonical" href="https://ansonblogs.netlify.app/posts/how-i-build-portfolio-website-using-lovable/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A complete breakdown of how I built my modern personal portfolio website using Lovable, React, TailwindCSS, and other modern tools." />
+	
+	
+	<meta property="og:image" content="https://ansonblogs.netlify.app/uploads/how-i-build-portfolio-website-using-lovable/anson-jaison-portfolio.png" />
+	<meta property="og:title" content="How I Built My Portfolio Website Using Lovable - Anson Jaison | Blog" />
+	<meta property="og:description" content="A complete breakdown of how I built my modern personal portfolio website using Lovable, React, TailwindCSS, and other modern tools." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="https://ansonblogs.netlify.app/uploads/how-i-build-portfolio-website-using-lovable/anson-jaison-portfolio.png" />
+
+	<script type="application/ld+json">
+	{
+  	"@context": "https://schema.org",
+  	"@type": "Blog",
+  	"name": "Anson Jaison | Blog",
+	"inLanguage": "en",
+  	"description": "A quiet space to share honest thoughts on life, learning, and technology — slow progress, experiments, and simple truths.",
+  	"url": "https:\/\/ansonblogs.netlify.app\/",
+  	"image": "https:\/\/ansonblogs.netlify.app\/uploads\/how-i-build-portfolio-website-using-lovable\/anson-jaison-portfolio.png",
+  	"publisher": {
+    	"@type": "Organization",
+    	"name": "Anson Jaison | Blog",
+    	"logo": {
+      	"@type": "ImageObject",
+      	"url": "https:\/\/ansonblogs.netlify.app\/android-chrome-512x512.png"
+    	}
+  	}
+	}
+	</script>
+
+
+	<meta property="og:url" content="https://ansonblogs.netlify.app/posts/how-i-build-portfolio-website-using-lovable/">
+  <meta property="og:site_name" content="Anson Jaison | Blog">
+  <meta property="og:title" content="How I Built My Portfolio Website Using Lovable">
+  <meta property="og:description" content="A complete breakdown of how I built my modern personal portfolio website using Lovable, React, TailwindCSS, and other modern tools.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-20T13:49:20+05:30">
+    <meta property="article:modified_time" content="2025-06-20T13:49:20+05:30">
+    <meta property="article:tag" content="Portfolio">
+    <meta property="article:tag" content="Web Development">
+    <meta property="article:tag" content="Lovable">
+    <meta property="article:tag" content="React">
+    <meta property="article:tag" content="Tailwindcss">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How I Built My Portfolio Website Using Lovable">
+  <meta name="twitter:description" content="A complete breakdown of how I built my modern personal portfolio website using Lovable, React, TailwindCSS, and other modern tools.">
+
+        <link href="https://ansonblogs.netlify.app/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://ansonblogs.netlify.app/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://ansonblogs.netlify.app/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css"   />
+
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJT7WE5LRW"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-RJT7WE5LRW');
+</script>
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://ansonblogs.netlify.app/">Anson&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">How I Built My Portfolio Website Using Lovable</h1>
+          <div class="meta">Posted on Jun 20, 2025</div>
+        </div>
+        
+        <section class="body">
+          <p><img src="/uploads/how-i-build-portfolio-website-using-lovable/anson-jaison-portfolio.png" alt="Anson Jaison Portfolio Landing Page"></p>
+<p>Ever since I stepped into tech, I’ve had this idea lingering in the back of my mind — to create a space online that truly feels like <em>me</em>. Not just a bunch of links or text, but a reflection of my work, thoughts, and energy. So, I finally sat down, spent some focused time, and built my own personal portfolio website: <strong>Anson Jaison | Portfolio</strong>.</p>
+<p>And this is the full story — everything from tools and design decisions to random bugs and late-night “why isn’t this loading” moments.</p>
+<hr>
+<h2 id="-why-i-wanted-a-portfolio-site">💡 Why I Wanted a Portfolio Site</h2>
+<p>I wanted a space to:</p>
+<ul>
+<li>Showcase the projects I’ve poured time into</li>
+<li>Share certifications and tech stack</li>
+<li>Link to my blog (which I also maintain separately!)</li>
+<li>Make it easier for collaborators, recruiters, or anyone curious to reach out</li>
+<li>And honestly, to just have a corner of the internet that feels like home</li>
+</ul>
+<hr>
+<h2 id="-choosing-the-right-tools">🛠️ Choosing the Right Tools</h2>
+<p>I’m not a full-fledged web developer (yet!), and setting up a complete backend, deployment pipelines, or handling hosting configurations felt like a bit too much for now. So, to keep things simple and focus on what really matters — design, structure, and content — I chose <strong>Lovable</strong>, a modern no-code/low-code platform. It lets creators like me build quickly and visually, while still allowing custom code where needed. And yes, I did all this using the <strong>free version.</strong></p>
+<p>Here’s the tech I brought in:</p>
+<ul>
+<li><strong>React 18.3.1</strong> with <strong>TypeScript</strong> + <strong>Vite</strong></li>
+<li><strong>Tailwind CSS</strong> for sleek styling</li>
+<li><strong>shadcn/ui</strong> for beautiful pre-built components</li>
+<li><strong>Framer Motion</strong> for smooth animations</li>
+<li><strong>Lucide React</strong> for minimal, elegant icons</li>
+<li>And <strong>React Router DOM</strong>, <strong>TanStack Query</strong> for structured navigation and data logic (though this is mostly static for now)</li>
+</ul>
+<hr>
+<h2 id="-planning-the-structure">🧩 Planning the Structure</h2>
+<p>I wanted it to be a <strong>single-page scroll experience</strong>, super clean and minimal, with just the right amount of motion. The main sections I created were:</p>
+<ul>
+<li><code>Hero</code>: An intro with my name, who I am, and links</li>
+<li><code>About</code>: A small story about me, not just credentials</li>
+<li><code>TechStack</code>: Tools and technologies I work with</li>
+<li><code>Projects</code>: A grid of featured work</li>
+<li><code>Certifications</code>: What I’ve been officially trained in</li>
+<li><code>Blog</code>: Curated posts linking to my external blog</li>
+<li><code>Contact</code>: CTA to reach out</li>
+<li><code>Footer</code>: Clean, minimal links and social handles</li>
+</ul>
+<p>Each section is scrollable using smooth anchors like <code>#about</code>, <code>#projects</code>, etc., and the header stays sticky as you move.</p>
+<hr>
+<h2 id="-design-choices">🎨 Design Choices</h2>
+<p>Dark mode only. Always.<br>
+I love clean aesthetics, muted colors, and bold typography.</p>
+<h3 id="fonts--color">Fonts &amp; Color</h3>
+<ul>
+<li>Background: <code>#0d0d0d</code></li>
+<li>Text: <code>#f5f5f5</code></li>
+<li>Fonts were chosen for elegance and readability</li>
+<li>Custom animations and Framer Motion add that subtle polish</li>
+</ul>
+<hr>
+<h2 id="-blog-integration-decisions">🧠 Blog Integration Decisions</h2>
+<p>Here’s a tricky one: I already have a separate blog site hosted on Netlify at <code>ansonblogs.netlify.app</code>.</p>
+<p>I was confused between:</p>
+<ol>
+<li><strong>Auto-fetching</strong> the latest 3 blog posts via API</li>
+<li><strong>Hard-coding</strong> my best 3 posts into the portfolio manually with links</li>
+</ol>
+<p>After some honest thinking, I realized:</p>
+<ul>
+<li>I’m using Lovable’s free plan</li>
+<li>There’s no backend or server function available</li>
+<li>Keeping things light and fast is a priority</li>
+</ul>
+<p>So I decided to <strong>just hardcode my top 3 blog posts</strong> into the <code>Blog</code> section for now, with hyperlinks pointing to the full blog site.</p>
+<p>Later, I’ll probably map the domain like:</p>
+<pre tabindex="0"><code>ansonjaison.com         → portfolio  
+blog.ansonjaison.com   → blog site
+</code></pre><hr>
+<h2 id="-favicons-seo-and-social-previews">🔍 Favicons, SEO, and Social Previews</h2>
+<p>One hiccup I ran into was the <strong>favicon and meta tags</strong>. Initially, I uploaded the favicons to Lovable’s “static” root, but they weren’t showing up. Eventually, I hosted them on my blog site and pointed all paths like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#ff79c6">link</span> <span style="color:#50fa7b">rel</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;apple-touch-icon&#34;</span> <span style="color:#50fa7b">sizes</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;180x180&#34;</span> <span style="color:#50fa7b">href</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;https://ansonblogs.netlify.app/apple-touch-icon.png&#34;</span>&gt;
+</span></span></code></pre></div><p>Same for OpenGraph and Twitter previews — I made sure the images were hosted externally and accessible. Now the preview cards look clean and branded when I share the link.</p>
+<hr>
+<h2 id="-deployment--hosting">🚀 Deployment + Hosting</h2>
+<p>I didn’t have to worry about servers. Lovable gave me a subdomain:<br>
+👉 <code>https://anson-jaison.lovable.app</code></p>
+<p>Everything just worked after a few clicks — no build pipeline needed.</p>
+<hr>
+<h2 id="-folder-structure--code-highlights">📁 Folder Structure &amp; Code Highlights</h2>
+<p>I kept everything clean:</p>
+<pre tabindex="0"><code>src/
+├── components/
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Projects.tsx
+│   ├── Blog.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+├── App.tsx
+├── main.tsx
+index.html
+</code></pre><p>Each section is modular, animations are powered with Framer Motion, and styling is done with Tailwind.</p>
+<hr>
+<h2 id="-challenges-i-faced">🤯 Challenges I Faced</h2>
+<ul>
+<li>Favicons not showing (solved by hosting externally)</li>
+<li>Page showing blank initially (fixed routing + favicon errors)</li>
+<li>Fonts not loading due to relative paths (had to experiment a bit)</li>
+<li>Choosing between auto vs. manual blog content</li>
+</ul>
+<hr>
+<h2 id="-whats-next">💭 What’s Next?</h2>
+<ul>
+<li>Connect a custom domain soon</li>
+<li>Maybe add a small <code>projects.json</code> and load it dynamically</li>
+<li>Pull blog posts via API when I shift to a backend or paid hosting</li>
+<li>A toggle for light/dark (maybe)</li>
+</ul>
+<hr>
+<h2 id="-final-thoughts">🌟 Final Thoughts</h2>
+<p>Building this site wasn’t just about code or aesthetics — it was about <strong>taking ownership of my identity online</strong>. Every pixel, every animation, every word was chosen carefully.</p>
+<p>If you’re planning to build yours, my advice is simple:<br>
+<strong>Start scrappy. Use what you have. Improve as you go.</strong></p>
+<p>If you’ve read this far, thank you!<br>
+Check it out here: 👉 <a href="https://anson-jaison.lovable.app">anson-jaison.lovable.app</a></p>
+<p>And if you want to say hi, the contact section is open 😄</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/portfolio">portfolio</a></li>
+              
+              <li><a href="/tags/web-development">web development</a></li>
+              
+              <li><a href="/tags/lovable">lovable</a></li>
+              
+              <li><a href="/tags/react">react</a></li>
+              
+              <li><a href="/tags/tailwindcss">tailwindcss</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<style>
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: #aaa;
+  }
+  .footer-divider {
+    margin: 0.5rem auto;
+    border-top: 1px solid #aaa;
+    width: 60%;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);  
+    transition: transform 0.2s ease;
+  }
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+<footer class="footer">
+  <div style="font-weight: bold; font-size: 1rem;">Anson Jaison</div>
+
+  <div class="footer-divider"></div>
+
+  <div class="social-icons">
+    <a href="https://github.com/ansonjaison" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://twitter.com/i_ansonjaison" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="Twitter/X">
+    </a>
+    <a href="https://in.linkedin.com/in/anson-jaison" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+  </div>
+</footer>
+</div>
+    </body>
+</html>
