@@ -98,7 +98,7 @@
           <p><img src="/uploads/how-to-build-a-minimal-blog-website/anson-jaison-blog-homepage.png" alt="Anson Jaison Blog Website Home Page"></p>
 <p>Creating a blog from scratch isn’t just about putting up posts — it’s about building a space that feels like <em>you</em>. One that’s easy to maintain, fast to load, SEO-friendly, and aesthetic enough that you’re proud to share it.</p>
 <p>This is a detailed breakdown of how I built <strong>my own personal blog</strong>, from a blank screen to a deployed site — and every hurdle I crossed along the way.</p>
-<h2 id="-the-vision">🧭 The Vision</h2>
+<h2 id="the-vision">The Vision</h2>
 <p>I didn’t want to just clone an existing blog. I had some goals in mind:</p>
 <ul>
 <li>Minimal dark theme with some <strong>green and reddish accents</strong></li>
@@ -107,7 +107,7 @@
 <li>Ability to upload static files like <strong>certificates, PDFs</strong>, etc.</li>
 <li>A clean <strong>404 error page</strong> for broken links</li>
 </ul>
-<h2 id="-the-tech-stack">⚙️ The Tech Stack</h2>
+<h2 id="the-tech-stack">The Tech Stack</h2>
 <p>Here&rsquo;s what I chose:</p>
 <table>
   <thead>
@@ -139,7 +139,7 @@
       </tr>
   </tbody>
 </table>
-<h2 id="-step-by-step-build-process">🛠️ Step-by-Step Build Process</h2>
+<h2 id="step-by-step-build-process">Step-by-Step Build Process</h2>
 <h3 id="1-initialize-the-hugo-project">1. <strong>Initialize the Hugo Project</strong></h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site ansonblogs
 </span></span></code></pre></div><h3 id="2-theme-selection--setup">2. <strong>Theme Selection &amp; Setup</strong></h3>
@@ -180,7 +180,7 @@ Despite correct tags, Twitter sometimes still shows a small card due to <strong>
 <p>I wanted to host documents like my certificates in a shareable way. So I created:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir static/certificates
 </span></span></code></pre></div><p>Then uploaded my files. Any file inside <code>static/</code> is directly accessible.<br>
-✅ Example:<br>
+Example:<br>
 <code>https://ansonblogs.netlify.app/certificates/filename.pdf</code></p>
 <h3 id="6-footer-customization">6. <strong>Footer Customization</strong></h3>
 <p>Initially, the Hugo theme footer showed default Hugo branding and links like <em>&ldquo;Built with Hugo&rdquo;</em>, but that didn’t really reflect <strong>me</strong>.</p>
@@ -189,7 +189,7 @@ Despite correct tags, Twitter sometimes still shows a small card due to <strong>
 <li><strong>Left side</strong>: I added my <strong>name</strong>, hyperlinked to my <a href="https://anson-jaison.lovable.app/">portfolio website</a>.</li>
 <li><strong>Right side</strong>: I added my <strong>GitHub, LinkedIn, and Twitter (X)</strong> links with corresponding icons.</li>
 </ul>
-<p>✅ Now it feels personal, minimal, and professional — and gives visitors a full-circle view of who I am.</p>
+<p>Now it feels personal, minimal, and professional — and gives visitors a full-circle view of who I am.</p>
 <h3 id="7-google-search-console--analytics-setup">7. <strong>Google Search Console + Analytics Setup</strong></h3>
 <p>Tracking how people discover and interact with my blog was something I didn’t want to skip.</p>
 <p>So, I integrated two essentials:</p>
@@ -198,7 +198,7 @@ Despite correct tags, Twitter sometimes still shows a small card due to <strong>
 <li><strong>Google Analytics</strong>: Gives me real-time insights into traffic, popular posts, user behavior, and more.</li>
 </ul>
 <p>I verified my domain using the meta tag method in Hugo’s <code>header.html</code>, and added my Google Analytics tracking code in the same spot.</p>
-<p>✅ Now I have a clean dashboard to track growth, fix issues early, and learn what content resonates best.</p>
+<p>Now I have a clean dashboard to track growth, fix issues early, and learn what content resonates best.</p>
 <h3 id="8-my-blog-writing-workflow">8. <strong>My Blog Writing Workflow</strong></h3>
 <p>To be honest, I would’ve preferred using a proper CMS with a neat dashboard to create and manage posts.<br>
 But most of those setups required additional configuration, backend hooks, or features outside the <strong>free tier</strong> — especially when self-hosting.</p>
@@ -215,7 +215,7 @@ But most of those setups required additional configuration, backend hooks, or fe
 <ul>
 <li>Add headings, lists, and code blocks</li>
 <li>Drop in <code>cover:</code> images if needed</li>
-<li>Use emojis and tip boxes for fun 😄</li>
+<li>Creates folder in /static/uploads for each blog to keep it media</li>
 </ul>
 </li>
 </ul>
@@ -227,18 +227,18 @@ But most of those setups required additional configuration, backend hooks, or fe
 </span></span><span style="display:flex;"><span>git commit -m <span style="color:#f1fa8c">&#34;New blog post&#34;</span>
 </span></span><span style="display:flex;"><span>git push
 </span></span></code></pre></div><ul>
-<li>Netlify picks up the changes and auto-deploys within seconds 🚀</li>
+<li>Netlify picks up the changes and auto-deploys within seconds</li>
 </ul>
-<p>✅ It&rsquo;s simple, fast, and distraction-free.<br>
+<p>It&rsquo;s simple, fast, and distraction-free.<br>
 When I buy a domain and upgrade later, I’ll definitely explore adding a proper CMS or admin panel to streamline it even more.</p>
-<h2 id="-problems-i-faced--solved">⚠️ Problems I Faced &amp; Solved</h2>
-<h3 id="-twitter-preview-not-showing-large-image">❌ Twitter Preview Not Showing Large Image</h3>
+<h2 id="problems-i-faced--solved">Problems I Faced &amp; Solved</h2>
+<h3 id="twitter-preview-not-showing-large-image">Twitter Preview Not Showing Large Image</h3>
 <p>Despite meta tags being correctly configured, Twitter sometimes refused to update previews.</p>
 <p><strong>Fix:</strong> Waited for Twitter’s cache to clear or used <code>https://cards-dev.twitter.com/validator</code> to refresh.</p>
-<h3 id="-white-404-page">❌ White 404 Page</h3>
+<h3 id="white-404-page">White 404 Page</h3>
 <p>The custom 404 page initially showed a <strong>white background</strong> due to missing layout inheritance.</p>
 <p><strong>Fix:</strong> I wrapped the content inside the site’s default layout and applied <code>main.css</code>.</p>
-<h2 id="-seo-sitemaps--meta">🔍 SEO, Sitemaps &amp; Meta</h2>
+<h2 id="seo-sitemaps--meta">SEO, Sitemaps &amp; Meta</h2>
 <ul>
 <li>A sitemap was auto-generated by Hugo</li>
 <li>Robots.txt included</li>
@@ -252,7 +252,7 @@ When I buy a domain and upgrade later, I’ll definitely explore adding a proper
 </ul>
 </li>
 </ul>
-<h2 id="-final-outcome">🎉 Final Outcome</h2>
+<h2 id="final-outcome">Final Outcome</h2>
 <p>My blog is now:</p>
 <ul>
 <li>Fully deployed at <strong><a href="https://ansonblogs.netlify.app">ansonblogs.netlify.app</a></strong></li>
@@ -260,7 +260,7 @@ When I buy a domain and upgrade later, I’ll definitely explore adding a proper
 <li>Supports document sharing and preview</li>
 <li>Fast to load and easy to update via GitHub</li>
 </ul>
-<h2 id="-final-thoughts">📌 Final Thoughts</h2>
+<h2 id="final-thoughts">Final Thoughts</h2>
 <p>If you’re trying to build your own blog, I highly recommend using <strong>Hugo + Netlify</strong>. You get:</p>
 <ul>
 <li>Speed</li>
