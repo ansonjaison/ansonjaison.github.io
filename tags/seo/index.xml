@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Anson Jaison | Blog</title>
-    <link>https://ansonblogs.netlify.app/tags/hugo/</link>
-    <description>Recent content in Hugo on Anson Jaison | Blog</description>
+    <title>SEO on Anson Jaison | Blog</title>
+    <link>https://ansonblogs.netlify.app/tags/seo/</link>
+    <description>Recent content in SEO on Anson Jaison | Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jun 2025 22:49:20 +0530</lastBuildDate>
-    <atom:link href="https://ansonblogs.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ansonblogs.netlify.app/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Built My Minimal Blog Website</title>
       <link>https://ansonblogs.netlify.app/posts/how-to-build-a-minimal-blog-website/</link>

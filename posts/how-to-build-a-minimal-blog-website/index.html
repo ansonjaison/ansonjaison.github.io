@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8" />
+	<meta name="google-site-verification" content="tVu9rZA3suelxNJ__mosCHU-VXSMM3u1VqMh0S4p8WU" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>How I Built My Minimal Blog Website - Anson Jaison | Blog</title><link rel="canonical" href="https://ansonblogs.netlify.app/posts/how-to-build-a-minimal-blog-website/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="From idea to deployment — how I built my own blog using Hugo, Netlify, and custom theming. Here&#39;s everything I learned." />
+	
+	
+	<meta property="og:image" content="https://ansonblogs.netlify.app/uploads/how-to-build-a-minimal-blog-website/anson-jaison-blog-homepage.png" />
+	<meta property="og:title" content="How I Built My Minimal Blog Website - Anson Jaison | Blog" />
+	<meta property="og:description" content="From idea to deployment — how I built my own blog using Hugo, Netlify, and custom theming. Here&#39;s everything I learned." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="How I Built My Minimal Blog Website - Anson Jaison | Blog" />
+	<meta name="twitter:description" content="From idea to deployment — how I built my own blog using Hugo, Netlify, and custom theming. Here&#39;s everything I learned." />
+	<meta name="twitter:image" content="https://ansonblogs.netlify.app/uploads/how-to-build-a-minimal-blog-website/anson-jaison-blog-homepage.png" />
+	<meta name="twitter:image:alt" content="Preview of How I Built My Minimal Blog Website" />
+
+
+	<script type="application/ld+json">
+	{
+  	"@context": "https://schema.org",
+  	"@type": "Blog",
+  	"name": "Anson Jaison | Blog",
+	"inLanguage": "en",
+  	"description": "A quiet space to share honest thoughts on life, learning, and technology — slow progress, experiments, and simple truths.",
+  	"url": "https:\/\/ansonblogs.netlify.app\/",
+  	"image": "https:\/\/ansonblogs.netlify.app\/uploads\/how-to-build-a-minimal-blog-website\/anson-jaison-blog-homepage.png",
+  	"publisher": {
+    	"@type": "Organization",
+    	"name": "Anson Jaison | Blog",
+    	"logo": {
+      	"@type": "ImageObject",
+      	"url": "https:\/\/ansonblogs.netlify.app\/android-chrome-512x512.png"
+    	}
+  	}
+	}
+	</script>
+
+
+	<meta property="og:url" content="https://ansonblogs.netlify.app/posts/how-to-build-a-minimal-blog-website/">
+  <meta property="og:site_name" content="Anson Jaison | Blog">
+  <meta property="og:title" content="How I Built My Minimal Blog Website">
+  <meta property="og:description" content="From idea to deployment — how I built my own blog using Hugo, Netlify, and custom theming. Here&#39;s everything I learned.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-20T22:49:20+05:30">
+    <meta property="article:modified_time" content="2025-06-20T22:49:20+05:30">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Netlify">
+    <meta property="article:tag" content="Web Development">
+    <meta property="article:tag" content="Blogging">
+    <meta property="article:tag" content="SEO">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How I Built My Minimal Blog Website">
+  <meta name="twitter:description" content="From idea to deployment — how I built my own blog using Hugo, Netlify, and custom theming. Here&#39;s everything I learned.">
+
+        <link href="https://ansonblogs.netlify.app/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://ansonblogs.netlify.app/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://ansonblogs.netlify.app/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css"   />
+
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJT7WE5LRW"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-RJT7WE5LRW');
+</script>
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://ansonblogs.netlify.app/">Anson&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">How I Built My Minimal Blog Website</h1>
+          <div class="meta">Posted on Jun 20, 2025</div>
+        </div>
+        
+        <section class="body">
+          <p><img src="/uploads/how-to-build-a-minimal-blog-website/anson-jaison-blog-homepage.png" alt="Anson Jaison Blog Website Home Page"></p>
+<p>Creating a blog from scratch isn’t just about putting up posts — it’s about building a space that feels like <em>you</em>. One that’s easy to maintain, fast to load, SEO-friendly, and aesthetic enough that you’re proud to share it.</p>
+<p>This is a detailed breakdown of how I built <strong>my own personal blog</strong>, from a blank screen to a deployed site — and every hurdle I crossed along the way.</p>
+<h2 id="-the-vision">🧭 The Vision</h2>
+<p>I didn’t want to just clone an existing blog. I had some goals in mind:</p>
+<ul>
+<li>Minimal dark theme with some <strong>green and reddish accents</strong></li>
+<li>Fast performance and easy deployment (no server headaches)</li>
+<li>Ability to preview nicely on <strong>Twitter, Telegram, LinkedIn</strong></li>
+<li>Ability to upload static files like <strong>certificates, PDFs</strong>, etc.</li>
+<li>A clean <strong>404 error page</strong> for broken links</li>
+</ul>
+<h2 id="-the-tech-stack">⚙️ The Tech Stack</h2>
+<p>Here&rsquo;s what I chose:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tech</th>
+          <th>Why I Picked It</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Hugo</td>
+          <td>Fast, flexible static site generator</td>
+      </tr>
+      <tr>
+          <td>Netlify</td>
+          <td>Free &amp; reliable static hosting + HTTPS</td>
+      </tr>
+      <tr>
+          <td>GitHub</td>
+          <td>Version control, and easy CI/CD integration</td>
+      </tr>
+      <tr>
+          <td>Markdown</td>
+          <td>Clean content writing &amp; editing</td>
+      </tr>
+      <tr>
+          <td>Custom theme</td>
+          <td>I didn’t want to use unedited templates</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="-step-by-step-build-process">🛠️ Step-by-Step Build Process</h2>
+<h3 id="1-initialize-the-hugo-project">1. <strong>Initialize the Hugo Project</strong></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site ansonblogs
+</span></span></code></pre></div><h3 id="2-theme-selection--setup">2. <strong>Theme Selection &amp; Setup</strong></h3>
+<p>I selected a minimalistic Hugo theme and heavily modified:</p>
+<ul>
+<li><code>layouts/_default/baseof.html</code></li>
+<li><code>layouts/partials/head.html</code></li>
+<li><code>layouts/partials/header.html</code></li>
+<li><code>layouts/partials/footer.html</code></li>
+</ul>
+<p>This allowed me to control:</p>
+<ul>
+<li>Dynamic page titles (like &ldquo;Anson Jaison | Blog&rdquo;)</li>
+<li>Meta tags for <strong>SEO and social sharing</strong></li>
+<li>Custom favicons</li>
+</ul>
+<h3 id="3-open-graph--twitter-cards">3. <strong>Open Graph &amp; Twitter Cards</strong></h3>
+<p>One of my goals was that <strong>when shared on Twitter or Telegram, posts should show a large preview</strong>.</p>
+<p>To do this:</p>
+<ul>
+<li>I set the <code>twitter:card</code> meta tag to <code>summary_large_image</code></li>
+<li>Used <code>.Params.cover</code> from the post’s front matter to generate preview images</li>
+<li>Added fallback to <code>Site.Params.og_image</code> if no cover was set</li>
+<li>Validated using <a href="https://opengraph.xyz/">OpenGraph.xyz</a></li>
+</ul>
+<p><strong>Issue faced:</strong><br>
+Despite correct tags, Twitter sometimes still shows a small card due to <strong>cache or crawl delays</strong>.</p>
+<h3 id="4-404-page-setup">4. <strong>404 Page Setup</strong></h3>
+<p>By default, Netlify displays its own 404 error page. I wanted something custom but matching my theme.</p>
+<p>So I added a full layout code that:</p>
+<ul>
+<li>Inherits my site’s header/footer</li>
+<li>Displays a centered message</li>
+<li>Offers a &ldquo;Back to Home&rdquo; button</li>
+</ul>
+<p>This ensures <strong>broken links don’t feel abandoned</strong>.</p>
+<h3 id="5-certificate-uploads">5. <strong>Certificate Uploads</strong></h3>
+<p>I wanted to host documents like my certificates in a shareable way. So I created:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir static/certificates
+</span></span></code></pre></div><p>Then uploaded my files. Any file inside <code>static/</code> is directly accessible.<br>
+✅ Example:<br>
+<code>https://ansonblogs.netlify.app/certificates/filename.pdf</code></p>
+<h3 id="6-footer-customization">6. <strong>Footer Customization</strong></h3>
+<p>Initially, the Hugo theme footer showed default Hugo branding and links like <em>&ldquo;Built with Hugo&rdquo;</em>, but that didn’t really reflect <strong>me</strong>.</p>
+<p>So, I made a few edits:</p>
+<ul>
+<li><strong>Left side</strong>: I added my <strong>name</strong>, hyperlinked to my <a href="https://anson-jaison.lovable.app/">portfolio website</a>.</li>
+<li><strong>Right side</strong>: I added my <strong>GitHub, LinkedIn, and Twitter (X)</strong> links with corresponding icons.</li>
+</ul>
+<p>✅ Now it feels personal, minimal, and professional — and gives visitors a full-circle view of who I am.</p>
+<h3 id="7-google-search-console--analytics-setup">7. <strong>Google Search Console + Analytics Setup</strong></h3>
+<p>Tracking how people discover and interact with my blog was something I didn’t want to skip.</p>
+<p>So, I integrated two essentials:</p>
+<ul>
+<li><strong>Google Search Console</strong>: Helps me understand how my blog appears in Google search, what keywords trigger impressions, and if there are any crawl or indexing issues.</li>
+<li><strong>Google Analytics</strong>: Gives me real-time insights into traffic, popular posts, user behavior, and more.</li>
+</ul>
+<p>I verified my domain using the meta tag method in Hugo’s <code>header.html</code>, and added my Google Analytics tracking code in the same spot.</p>
+<p>✅ Now I have a clean dashboard to track growth, fix issues early, and learn what content resonates best.</p>
+<h3 id="8-my-blog-writing-workflow">8. <strong>My Blog Writing Workflow</strong></h3>
+<p>To be honest, I would’ve preferred using a proper CMS with a neat dashboard to create and manage posts.<br>
+But most of those setups required additional configuration, backend hooks, or features outside the <strong>free tier</strong> — especially when self-hosting.</p>
+<p>So for now, I kept it minimal and stuck to the basics:<br>
+<strong>command line + VS Code + Markdown.</strong></p>
+<p>Here’s my flow for writing new posts:</p>
+<ul>
+<li>I start with Hugo’s CLI:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/my-new-post.md
+</span></span></code></pre></div><ul>
+<li>That gives me a clean Markdown file with some front matter (<code>title</code>, <code>date</code>, <code>tags</code>, etc.)</li>
+<li>I write the content using Markdown:
+<ul>
+<li>Add headings, lists, and code blocks</li>
+<li>Drop in <code>cover:</code> images if needed</li>
+<li>Use emojis and tip boxes for fun 😄</li>
+</ul>
+</li>
+</ul>
+<p>Once the post is ready:</p>
+<ul>
+<li>I run:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#f1fa8c">&#34;New blog post&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><ul>
+<li>Netlify picks up the changes and auto-deploys within seconds 🚀</li>
+</ul>
+<p>✅ It&rsquo;s simple, fast, and distraction-free.<br>
+When I buy a domain and upgrade later, I’ll definitely explore adding a proper CMS or admin panel to streamline it even more.</p>
+<h2 id="-problems-i-faced--solved">⚠️ Problems I Faced &amp; Solved</h2>
+<h3 id="-twitter-preview-not-showing-large-image">❌ Twitter Preview Not Showing Large Image</h3>
+<p>Despite meta tags being correctly configured, Twitter sometimes refused to update previews.</p>
+<p><strong>Fix:</strong> Waited for Twitter’s cache to clear or used <code>https://cards-dev.twitter.com/validator</code> to refresh.</p>
+<h3 id="-white-404-page">❌ White 404 Page</h3>
+<p>The custom 404 page initially showed a <strong>white background</strong> due to missing layout inheritance.</p>
+<p><strong>Fix:</strong> I wrapped the content inside the site’s default layout and applied <code>main.css</code>.</p>
+<h2 id="-seo-sitemaps--meta">🔍 SEO, Sitemaps &amp; Meta</h2>
+<ul>
+<li>A sitemap was auto-generated by Hugo</li>
+<li>Robots.txt included</li>
+<li>Canonical links were set in the <code>&lt;head&gt;</code></li>
+<li>OG/Twitter/meta tag hierarchy followed best practices</li>
+<li>Validated using:
+<ul>
+<li>Google Search Console</li>
+<li>OpenGraph.xyz</li>
+<li>Twitter Card Validator</li>
+</ul>
+</li>
+</ul>
+<h2 id="-final-outcome">🎉 Final Outcome</h2>
+<p>My blog is now:</p>
+<ul>
+<li>Fully deployed at <strong><a href="https://ansonblogs.netlify.app">ansonblogs.netlify.app</a></strong></li>
+<li>Shows clean metadata when shared</li>
+<li>Supports document sharing and preview</li>
+<li>Fast to load and easy to update via GitHub</li>
+</ul>
+<h2 id="-final-thoughts">📌 Final Thoughts</h2>
+<p>If you’re trying to build your own blog, I highly recommend using <strong>Hugo + Netlify</strong>. You get:</p>
+<ul>
+<li>Speed</li>
+<li>Control</li>
+<li>Flexibility</li>
+</ul>
+<p>…but you also learn how real websites work: from DNS to deployment, theming to metadata.</p>
+<p>This whole journey has not only helped me publish my writing — it has made me a better developer and designer too.</p>
+<p>Thanks for reading. You can check out the <a href="https://github.com/ansonjaison/ansonjaison.github.io">source code on GitHub</a> or <a href="https://anson-jaison.lovable.app/">my portfolio</a> for more projects!</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/hugo">Hugo</a></li>
+              
+              <li><a href="/tags/netlify">Netlify</a></li>
+              
+              <li><a href="/tags/web-development">Web Development</a></li>
+              
+              <li><a href="/tags/blogging">Blogging</a></li>
+              
+              <li><a href="/tags/seo">SEO</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<style>
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: #aaa;
+  }
+  .footer-divider {
+    margin: 0.5rem auto;
+    border-top: 1px solid #aaa;
+    width: 60%;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);  
+    transition: transform 0.2s ease;
+  }
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+<footer class="footer">
+  <div style="font-weight: bold; font-size: 1rem;">
+    <a href="https://anson-jaison.lovable.app" target="_blank" rel="noopener noreferrer">
+      Anson Jaison
+    </a>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="social-icons">
+    <a href="https://github.com/ansonjaison" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://twitter.com/i_ansonjaison" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="Twitter/X">
+    </a>
+    <a href="https://in.linkedin.com/in/anson-jaison" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+  </div>
+</footer>
+</div>
+    </body>
+</html>

@@ -3,10 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ansonblogs.netlify.app/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/tags/blogging/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/categories/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/posts/how-to-build-a-minimal-blog-website/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/tags/hugo/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/tags/netlify/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/categories/personal-projects/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/posts/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/tags/seo/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/tags/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/categories/web-development/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/tags/web-development/</loc>
+    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/posts/how-i-build-portfolio-website-using-lovable/</loc>
     <lastmod>2025-06-20T13:49:20+05:30</lastmod>
@@ -14,28 +44,13 @@
     <loc>https://ansonblogs.netlify.app/tags/lovable/</loc>
     <lastmod>2025-06-20T13:49:20+05:30</lastmod>
   </url><url>
-    <loc>https://ansonblogs.netlify.app/categories/personal-projects/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
-  </url><url>
     <loc>https://ansonblogs.netlify.app/tags/portfolio/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
-  </url><url>
-    <loc>https://ansonblogs.netlify.app/posts/</loc>
     <lastmod>2025-06-20T13:49:20+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/tags/react/</loc>
     <lastmod>2025-06-20T13:49:20+05:30</lastmod>
   </url><url>
-    <loc>https://ansonblogs.netlify.app/tags/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
-  </url><url>
     <loc>https://ansonblogs.netlify.app/tags/tailwindcss/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
-  </url><url>
-    <loc>https://ansonblogs.netlify.app/categories/web-development/</loc>
-    <lastmod>2025-06-20T13:49:20+05:30</lastmod>
-  </url><url>
-    <loc>https://ansonblogs.netlify.app/tags/web-development/</loc>
     <lastmod>2025-06-20T13:49:20+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/posts/about-me/</loc>
