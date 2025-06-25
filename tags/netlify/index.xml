@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on Anson Jaison | Blog</title>
+    <link>https://ansonblogs.netlify.app/tags/netlify/</link>
+    <description>Recent content in Netlify on Anson Jaison | Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jun 2025 22:49:20 +0530</lastBuildDate>
+    <atom:link href="https://ansonblogs.netlify.app/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Built My Minimal Blog Website</title>
+      <link>https://ansonblogs.netlify.app/posts/how-to-build-a-minimal-blog-website/</link>
+      <pubDate>Fri, 20 Jun 2025 22:49:20 +0530</pubDate>
+      <guid>https://ansonblogs.netlify.app/posts/how-to-build-a-minimal-blog-website/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ansonblogs.netlify.app/uploads/how-to-build-a-minimal-blog-website/anson-jaison-blog-homepage.png&#34; alt=&#34;Anson Jaison Blog Website Home Page&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Creating a blog from scratch isn’t just about putting up posts — it’s about building a space that feels like &lt;em&gt;you&lt;/em&gt;. One that’s easy to maintain, fast to load, SEO-friendly, and aesthetic enough that you’re proud to share it.&lt;/p&gt;&#xA;&lt;p&gt;This is a detailed breakdown of how I built &lt;strong&gt;my own personal blog&lt;/strong&gt;, from a blank screen to a deployed site — and every hurdle I crossed along the way.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

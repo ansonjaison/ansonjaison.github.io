@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro on Anson Jaison | Blog</title>
+    <link>https://ansonblogs.netlify.app/tags/intro/</link>
+    <description>Recent content in Intro on Anson Jaison | Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jun 2025 15:20:55 +0530</lastBuildDate>
+    <atom:link href="https://ansonblogs.netlify.app/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://ansonblogs.netlify.app/posts/about-me/</link>
+      <pubDate>Wed, 18 Jun 2025 15:20:55 +0530</pubDate>
+      <guid>https://ansonblogs.netlify.app/posts/about-me/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ansonblogs.netlify.app/uploads/about-me/random.png&#34; alt=&#34;Random Cover Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’m not sure who will read this. Maybe someone from my family, maybe a friend, or maybe even someone I haven’t met yet.&lt;br&gt;&#xA;This is just a small space I’ve decided to create — for writing, reflecting, and sharing what I learn along the way.&lt;/p&gt;&#xA;&lt;p&gt;To be honest, I’m not very used to writing about myself. It feels a bit awkward. But since this is the first post, I thought I’d quietly introduce myself — just so there’s a starting point.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
