@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ansonblogs.netlify.app/</loc>
-    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
+    <lastmod>2025-06-24T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://ansonblogs.netlify.app/posts/</loc>
+    <lastmod>2025-06-24T10:00:00+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/tags/blogging/</loc>
     <lastmod>2025-06-20T22:49:20+05:30</lastmod>
@@ -21,9 +24,6 @@
     <lastmod>2025-06-20T22:49:20+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/categories/posts/</loc>
-    <lastmod>2025-06-20T22:49:20+05:30</lastmod>
-  </url><url>
-    <loc>https://ansonblogs.netlify.app/posts/</loc>
     <lastmod>2025-06-20T22:49:20+05:30</lastmod>
   </url><url>
     <loc>https://ansonblogs.netlify.app/tags/seo/</loc>

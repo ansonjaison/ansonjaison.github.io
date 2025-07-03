@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event on Anson Jaison | Blog</title>
-    <link>http://localhost:34887/tags/event/</link>
+    <link>http://localhost:34117/tags/event/</link>
     <description>Recent content in Event on Anson Jaison | Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jun 2025 10:00:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:34887/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34117/tags/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Event Coordination Experience: DataVoid Trivia 2025</title>
-      <link>http://localhost:34887/posts/datavoid-trivia-2025/</link>
+      <title>DataVoid Trivia 2025: From Student to Tech Fest Event Coordinator</title>
+      <link>http://localhost:34117/posts/datavoid-trivia-2025/</link>
       <pubDate>Tue, 24 Jun 2025 10:00:00 +0530</pubDate>
-      <guid>http://localhost:34887/posts/datavoid-trivia-2025/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:34887/uploads/datavoid-trivia/cover.png&#34; alt=&#34;DataVoid Trivia 2025&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;From a casual CN Lab day to a full-on TechFest triumph — here’s how it all unfolded.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;setting-the-scene&#34;&gt;Setting the Scene&lt;/h2&gt;&#xA;&lt;p&gt;Right now, as I’m writing this, I’m about to enter my 7th semester of engineering. But the story I’m about to tell you happened a few months back, during my 6th semester at VJCET — our college. Every even semester, our college hosts the biggest events of the year: &lt;strong&gt;TechFest&lt;/strong&gt; and &lt;strong&gt;ArtFest&lt;/strong&gt;. It’s that season when college vibes shift into celebration mode — banners go up, registrations open, stages get set, and energy runs wild across campus.&lt;/p&gt;</description>
+      <guid>http://localhost:34117/posts/datavoid-trivia-2025/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:34117/uploads/datavoid-trivia/cover.png&#34; alt=&#34;DataVoid Trivia 2025&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;From a casual CN Lab day to a full-on TechFest triumph — here’s how it all unfolded.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;As I write this, I’m stepping into my 7th semester of engineering. But this story takes me back to 6th sem—the sem that gave me not just classes and labs, but a whole different kind of lesson. A real, raw, hands-on, everything-from-scratch experience of organizing my very first technical event. And this wasn’t some internal class activity or a mini club game. This was *DataVoid Trivia 2025, conducted as part of VJCET Tech Fest, *&lt;em&gt;Bodhi 2025&lt;/em&gt;, a proper, public-facing event with real stakes, a real crowd, and real chaos.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
